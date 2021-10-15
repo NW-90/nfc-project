@@ -20,7 +20,7 @@ function UserInfo() {
               </label>
               <input
                 type="text"
-                className="border border-gray-300 shadow p-3 w-full rounded mb-"
+                className="border border-gray-300 shadow p-3 w-full rounded "
               ></input>
             </div>
             <div className="mb-5">
@@ -29,7 +29,7 @@ function UserInfo() {
               </label>
               <input
                 type="text"
-                className="border border-gray-300 shadow p-3 w-full rounded mb-"
+                className="border border-gray-300 shadow p-3 w-full rounded "
               ></input>
             </div>
             <div className="mb-5">
@@ -38,7 +38,7 @@ function UserInfo() {
               </label>
               <input
                 type="text"
-                className="border border-gray-300 shadow p-3 w-full rounded mb-"
+                className="border border-gray-300 shadow p-3 w-full rounded "
               ></input>
             </div>
             <div className="mb-5">
@@ -47,7 +47,7 @@ function UserInfo() {
               </label>
               <input
                 type="text"
-                className="border border-gray-300 shadow p-3 w-full rounded mb-"
+                className="border border-gray-300 shadow p-3 w-full rounded"
               ></input>
             </div>
             <div className="mb-5">
@@ -56,7 +56,7 @@ function UserInfo() {
               </label>
               <input
                 type="text"
-                className="border border-gray-300 shadow p-3 w-full rounded mb-"
+                className="border border-gray-300 shadow p-3 w-full rounded"
               ></input>
             </div>
           </form>
