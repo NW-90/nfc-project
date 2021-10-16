@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import ImageUpload from "../components/ImageUpload";
 import UploadImg from "../components/UploadImg";
 
 function uploadPage() {
@@ -6,6 +7,7 @@ function uploadPage() {
     <div>
       <Header />
       <UploadImg />
+      {/* <ImageUpload /> */}
     </div>
   );
 }
