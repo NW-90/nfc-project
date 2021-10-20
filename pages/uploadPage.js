@@ -6,8 +6,10 @@ function uploadPage() {
   return (
     <div>
       <Header />
+      {/* <UploadImg /> */}
+
+      <ImageUpload />
       <UploadImg />
-      {/* <ImageUpload /> */}
     </div>
   );
 }

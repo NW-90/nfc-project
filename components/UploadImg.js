@@ -1,16 +1,12 @@
-import ImgCrop from "antd-img-crop";
-import { Upload } from "antd";
-import ImageUpload from "./ImageUpload";
-
 function UploadImg() {
   return (
     <div className=" flex items-center p-2">
       <div className="w-full">
         <div className="bg-white p-2 sm:p-10 rounded-lg shadow md:w-3/4 mx-auto lg:w-1/2">
           <form action="">
-            <div className="h-72 sm:h-96 mb-5">
+            {/* <div className="h-72 sm:h-96 mb-5">
               <ImageUpload />
-            </div>
+            </div> */}
             <div className="mb-5">
               <label
                 htmlFor="name"
