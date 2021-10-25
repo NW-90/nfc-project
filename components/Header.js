@@ -14,7 +14,7 @@ function Header() {
         <p onClick={() => router.push("/uploadPage")} className="text-xs sm:text-lg font-bold text-white cursor-pointer">
           Upload Image
         </p>
-        <p className="text-xs sm:text-lg font-bold text-white cursor-pointer">
+        <p onClick={()=> router.push("/collectionPage")} className="text-xs sm:text-lg font-bold text-white cursor-pointer">
           My Collection Page
         </p>
       </div>

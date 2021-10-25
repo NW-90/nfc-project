@@ -21,6 +21,7 @@ function ImageUpload() {
 
   return (
     <div className="flex flex-col sm:flex-row justify-center align-center pt-2 pb-16 sm:pb-4 space-x-2 ">
+      {/* Main Image */}
       <ImageUploading
         multiple={false}
         value={images}
@@ -41,7 +42,7 @@ function ImageUpload() {
             {imageList.length < 1 ? (
               <button
                 className="text-lg font-bold"
-                style={isDragging ? { color: "red" } : undefined}
+                style={isDragging ? { color: "blue"} : undefined}
                 onClick={onImageUpload}
                 {...dragProps}
               >
@@ -63,6 +64,7 @@ function ImageUpload() {
           </div>
         )}
       </ImageUploading>
+      {/* Folder Images */}
       <ImageUploading
         multiple={true}
         value={imagesFolder}
@@ -84,7 +86,7 @@ function ImageUpload() {
             <div className="flex justify-center align-center w-72 h-16 sm:w-96 sm:h-20 border border-gray-400 space-x-4 rounded-md">
               <button
                 className="text-lg font-bold"
-                style={isDragging ? { color: "red" } : undefined}
+                style={isDragging ? { color: "blue" } : undefined}
                 onClick={onImageUpload}
                 {...dragProps}
               >
